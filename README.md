@@ -38,7 +38,7 @@ A local drive for UR students to store study resources in the university
      $ CREATE DATABASE urdrive;
      ```
 
-5. (Optional) Running with terminal
+5. (Optional - Run with Java 11) Running with terminal 
 
    ```shell
    $ mvn clean build
