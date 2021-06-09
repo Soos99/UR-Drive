@@ -2,13 +2,14 @@ package com.springmvc.urdrive.service;
 
 import com.springmvc.urdrive.model.Student;
 import com.springmvc.urdrive.repository.StudentRepository;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-@Data
+@AllArgsConstructor
 @Slf4j
 public class StudentService {
     @Autowired
@@ -26,6 +27,11 @@ public class StudentService {
 
     public Student findStudentByUsername(String username) {
         return studentRepository.findByUsername(username).orElse(null);
+    }
+
+    public Integer findStudentIDByUsername(String username) {
+        Student student = findStudentByUsername(username);
+        return (student != null) ? student.getStudentID() : null;
     }
 
 //    public void changePassword(String username, String password) {
