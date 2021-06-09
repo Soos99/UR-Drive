@@ -35,8 +35,15 @@ A local drive for UR students to store study resources in the university
    - Open MySQL CLI and create database urdrive:
 
      ```sh
-     CREATE DATABASE urdrive;
+     $ CREATE DATABASE urdrive;
      ```
+
+5. (Optional) Running with terminal
+
+   ```shell
+   $ mvn clean build
+   $ java -jar ./target/urdrive-0.0.1-SNAPSHOT.jar
+   ```
 
 ## Contact
 
