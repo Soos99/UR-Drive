@@ -1,11 +1,11 @@
 CREATE TABLE IF NOT EXISTS STUDENTS
 (
-    userid    INT PRIMARY KEY auto_increment,
-    username  VARCHAR(20),
-    salt      VARCHAR,
-    password  VARCHAR,
-    firstname VARCHAR(20),
-    lastname  VARCHAR(20)
+    student_id    INT PRIMARY KEY auto_increment,
+    username  VARCHAR(20) NOT NULL,
+    salt      VARCHAR(256) NOT NULL,
+    password  VARCHAR(256) NOT NULL,
+    first_name VARCHAR(20) NOT NULL,
+    last_name  VARCHAR(20) NOT NULL
 );
 
 -- CREATE TABLE IF NOT EXISTS NOTES
