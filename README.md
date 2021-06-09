@@ -14,7 +14,6 @@ A local drive for UR students to store study resources in the university
 - Spring MVC
 - Thymeleaf
 - Spring Security
-- Spring Data JPA
 - Hibernate
 - MySQL
 - Lombok
