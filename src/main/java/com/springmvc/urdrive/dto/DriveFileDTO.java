@@ -1,4 +1,4 @@
-package com.springmvc.urdrive.model;
+package com.springmvc.urdrive.dto;
 
 import lombok.Data;
 

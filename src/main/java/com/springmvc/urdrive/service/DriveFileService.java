@@ -1,7 +1,7 @@
 package com.springmvc.urdrive.service;
 
 import com.springmvc.urdrive.model.DriveFile;
-import com.springmvc.urdrive.model.DriveFileDTO;
+import com.springmvc.urdrive.dto.DriveFileDTO;
 import com.springmvc.urdrive.repository.DriveFileRepository;
 import lombok.Data;
 import org.springframework.beans.BeanUtils;
