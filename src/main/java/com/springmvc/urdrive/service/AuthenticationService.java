@@ -2,6 +2,7 @@ package com.springmvc.urdrive.service;
 
 import com.springmvc.urdrive.model.Student;
 import com.springmvc.urdrive.repository.StudentRepository;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationProvider;
@@ -12,7 +13,7 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 
 @Service
-@Data
+@AllArgsConstructor
 public class AuthenticationService implements AuthenticationProvider {
     @Autowired
     private final StudentService studentService;
