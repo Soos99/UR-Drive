@@ -1,6 +1,6 @@
-# UR Drive
+# Local Drive
 
-A local drive for UR students to store study resources in the university
+A local drive for students to store study resources in the university
 
 ## Supported features
 
